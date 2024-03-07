@@ -1,6 +1,6 @@
 //
-//  Option.swift
-//  Fandangle
+//  ListItem.swift
+//  HarmonyDemoApp
 //
 //  Created by Aaron Pearce on 10/02/24.
 //
@@ -29,18 +29,6 @@ struct ListItem: HRecord, Identifiable {
     var record: CKRecord {
         let encoder = CKRecordEncoder(zoneID: zoneID)
         return try! encoder.encode(self)
-    }
-
-    mutating func updateChanges(db: Database, ckRecord: CKRecord) throws {
-
-        if let new = Self.parseFrom(record: ckRecord) {
-            try self.updateChanges(db) { record in
-                record.text = new.text
-                record.isCompleted = new.isCompleted
-                record.archivedRecordData = new.archivedRecordData
-            }
-        }
-
     }
 
     func hash(into hasher: inout Hasher) {

@@ -1,12 +1,13 @@
 {
+  "originHash" : "e356a9d186e303cf609fa50f0e0c20d3df597d992fd9eb0bfc26770f7a72136c",
   "pins" : [
     {
       "identity" : "grdb.swift",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/groue/GRDB.swift",
       "state" : {
-        "revision" : "e069e2732e3ee2b67bf89c1bda1937da0eaee7ef",
-        "version" : "6.24.2"
+        "revision" : "bd9aea303d9dab3a4941ee838a0e4ff51c9448df",
+        "version" : "6.25.0"
       }
     },
     {
@@ -17,7 +18,16 @@
         "revision" : "42fef11503d221229ec39201c08316b6930755b2",
         "version" : "0.8.0"
       }
+    },
+    {
+      "identity" : "harmony",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aaronpearce/Harmony",
+      "state" : {
+        "branch" : "main",
+        "revision" : "741713abf98828b59e78ad1fa142a2385dc2dc39"
+      }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

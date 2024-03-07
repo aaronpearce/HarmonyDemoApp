@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		93C824372B7C1AC00087B248 /* IttyBittyListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C824362B7C1AC00087B248 /* IttyBittyListApp.swift */; };
+		93C824372B7C1AC00087B248 /* HarmonyDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C824362B7C1AC00087B248 /* HarmonyDemoApp.swift */; };
 		93C824392B7C1AC00087B248 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C824382B7C1AC00087B248 /* ContentView.swift */; };
 		93C8243B2B7C1ACD0087B248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C8243A2B7C1ACD0087B248 /* Assets.xcassets */; };
 		93C8243E2B7C1ACD0087B248 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C8243D2B7C1ACD0087B248 /* Preview Assets.xcassets */; };
@@ -20,9 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		93B243BC2B7C562B00DED1F1 /* Harmony */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Harmony; path = ../../Packages/Harmony; sourceTree = "<group>"; };
-		93C824332B7C1AC00087B248 /* IttyBittyList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IttyBittyList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		93C824362B7C1AC00087B248 /* IttyBittyListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IttyBittyListApp.swift; sourceTree = "<group>"; };
+		93C824332B7C1AC00087B248 /* HarmonyDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarmonyDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C824362B7C1AC00087B248 /* HarmonyDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonyDemoApp.swift; sourceTree = "<group>"; };
 		93C824382B7C1AC00087B248 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		93C8243A2B7C1ACD0087B248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93C8243D2B7C1ACD0087B248 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -30,7 +29,7 @@
 		93C824462B7C1AE50087B248 /* ListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 		93C824472B7C1AE50087B248 /* AllListItemsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllListItemsRequest.swift; sourceTree = "<group>"; };
 		93C824482B7C1AE50087B248 /* Migrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Migrator.swift; sourceTree = "<group>"; };
-		93C824532B7C1D7C0087B248 /* IttyBittyList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IttyBittyList.entitlements; sourceTree = "<group>"; };
+		93C824532B7C1D7C0087B248 /* HarmonyDemoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HarmonyDemoApp.entitlements; sourceTree = "<group>"; };
 		93C824542B7C49C60087B248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,8 +57,7 @@
 		93C8242A2B7C1AC00087B248 = {
 			isa = PBXGroup;
 			children = (
-				93B243BC2B7C562B00DED1F1 /* Harmony */,
-				93C824352B7C1AC00087B248 /* IttyBittyList */,
+				93C824352B7C1AC00087B248 /* HarmonyDemoApp */,
 				93C824342B7C1AC00087B248 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,24 +65,24 @@
 		93C824342B7C1AC00087B248 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				93C824332B7C1AC00087B248 /* IttyBittyList.app */,
+				93C824332B7C1AC00087B248 /* HarmonyDemoApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		93C824352B7C1AC00087B248 /* IttyBittyList */ = {
+		93C824352B7C1AC00087B248 /* HarmonyDemoApp */ = {
 			isa = PBXGroup;
 			children = (
 				93C824542B7C49C60087B248 /* Info.plist */,
-				93C824532B7C1D7C0087B248 /* IttyBittyList.entitlements */,
-				93C824362B7C1AC00087B248 /* IttyBittyListApp.swift */,
+				93C824532B7C1D7C0087B248 /* HarmonyDemoApp.entitlements */,
+				93C824362B7C1AC00087B248 /* HarmonyDemoApp.swift */,
 				93C824382B7C1AC00087B248 /* ContentView.swift */,
 				9314187A2B7DADA500F55106 /* Models */,
 				93C824442B7C1AE50087B248 /* Database */,
 				93C8243A2B7C1ACD0087B248 /* Assets.xcassets */,
 				93C8243C2B7C1ACD0087B248 /* Preview Content */,
 			);
-			path = IttyBittyList;
+			path = HarmonyDemoApp;
 			sourceTree = "<group>";
 		};
 		93C8243C2B7C1ACD0087B248 /* Preview Content */ = {
@@ -108,9 +106,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		93C824322B7C1AC00087B248 /* IttyBittyList */ = {
+		93C824322B7C1AC00087B248 /* HarmonyDemoApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93C824412B7C1ACD0087B248 /* Build configuration list for PBXNativeTarget "IttyBittyList" */;
+			buildConfigurationList = 93C824412B7C1ACD0087B248 /* Build configuration list for PBXNativeTarget "HarmonyDemoApp" */;
 			buildPhases = (
 				93C8242F2B7C1AC00087B248 /* Sources */,
 				93C824302B7C1AC00087B248 /* Frameworks */,
@@ -120,13 +118,13 @@
 			);
 			dependencies = (
 			);
-			name = IttyBittyList;
+			name = HarmonyDemoApp;
 			packageProductDependencies = (
 				93C8244E2B7C1B030087B248 /* Harmony */,
 				93C824512B7C1B110087B248 /* GRDBQuery */,
 			);
 			productName = IttyBittyList;
-			productReference = 93C824332B7C1AC00087B248 /* IttyBittyList.app */;
+			productReference = 93C824332B7C1AC00087B248 /* HarmonyDemoApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -144,7 +142,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 93C8242E2B7C1AC00087B248 /* Build configuration list for PBXProject "IttyBittyList" */;
+			buildConfigurationList = 93C8242E2B7C1AC00087B248 /* Build configuration list for PBXProject "HarmonyDemoApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -161,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				93C824322B7C1AC00087B248 /* IttyBittyList */,
+				93C824322B7C1AC00087B248 /* HarmonyDemoApp */,
 			);
 		};
 /* End PBXProject section */
@@ -188,7 +186,7 @@
 				93C8244C2B7C1AE50087B248 /* Migrator.swift in Sources */,
 				93C824392B7C1AC00087B248 /* ContentView.swift in Sources */,
 				93C824492B7C1AE50087B248 /* Query.swift in Sources */,
-				93C824372B7C1AC00087B248 /* IttyBittyListApp.swift in Sources */,
+				93C824372B7C1AC00087B248 /* HarmonyDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,14 +317,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = IttyBittyList/IttyBittyList.entitlements;
+				CODE_SIGN_ENTITLEMENTS = HarmonyDemoApp/HarmonyDemoApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"IttyBittyList/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HarmonyDemoApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 24AY64LA78;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = IttyBittyList/Info.plist;
+				INFOPLIST_FILE = HarmonyDemoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -337,7 +335,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pearcemedia.IttyBittyList;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pearcemedia.HarmonyDemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -350,14 +348,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = IttyBittyList/IttyBittyList.entitlements;
+				CODE_SIGN_ENTITLEMENTS = HarmonyDemoApp/HarmonyDemoApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"IttyBittyList/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HarmonyDemoApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 24AY64LA78;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = IttyBittyList/Info.plist;
+				INFOPLIST_FILE = HarmonyDemoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -368,7 +366,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pearcemedia.IttyBittyList;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pearcemedia.HarmonyDemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -379,7 +377,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		93C8242E2B7C1AC00087B248 /* Build configuration list for PBXProject "IttyBittyList" */ = {
+		93C8242E2B7C1AC00087B248 /* Build configuration list for PBXProject "HarmonyDemoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93C8243F2B7C1ACD0087B248 /* Debug */,
@@ -388,7 +386,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93C824412B7C1ACD0087B248 /* Build configuration list for PBXNativeTarget "IttyBittyList" */ = {
+		93C824412B7C1ACD0087B248 /* Build configuration list for PBXNativeTarget "HarmonyDemoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93C824422B7C1ACD0087B248 /* Debug */,

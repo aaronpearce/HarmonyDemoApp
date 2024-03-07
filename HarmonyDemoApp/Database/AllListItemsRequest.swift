@@ -1,6 +1,6 @@
 //
-//  HomeRequest.swift
-//  HomePassConcept (iOS)
+//  AllListItemsRequest.swift
+//  HarmonyDemoApp
 //
 //  Created by Aaron Pearce on 26/01/22.
 //
@@ -29,7 +29,7 @@ struct AllListItemsRequest: Queryable {
         try ListItem
             .fetchAll(db)
             .sorted { item1, item2 in
-                item1.cloudKitCreationDate ?? .distantPast < item2.cloudKitCreationDate ?? .distantPast
+                item1.cloudKitCreationDate ?? .distantFuture < item2.cloudKitCreationDate ?? .distantFuture
             }
     }
 }
